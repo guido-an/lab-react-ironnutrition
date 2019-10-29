@@ -1,11 +1,11 @@
 import React from 'react';
 import FoodBox from './FoodBox'
 
-export function TodaysFood({todaysFood, addTodaysFood}) {
+export function TodaysFood({todaysFood}) {
   return (
     <div>
       <h2>Today's food</h2>
-      {todaysFood.map((food, index) => {
+      {todaysFood.map(food => {
           return (
               <div>
                   <p><strong>name</strong></p>
